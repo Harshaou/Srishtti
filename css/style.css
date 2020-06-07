@@ -67,6 +67,47 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+  .title-h{
+    -webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #ff5733;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #2ff0c1;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #2ff0c1;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+text-align: left;
+font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 0.5rem;
+font-weight: 900;
+line-height: 1;
+font-size: 4rem;
+color: #fff;
+  }
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -7280,6 +7321,22 @@ body {
     height: 100%;
     width: 100%; }
 
+    .hh1{
+      /* background: linear-gradient(-90deg, rgb(223, 113, 159), rgb(209, 88, 149)); */
+      background:linear-gradient(-90deg, rgb(238, 153, 188), rgb(218, 111, 164));
+      border: 2px solid #e83e8c;
+      border-radius: 25px;
+      padding-left: 30;
+      padding-right: 30;
+      border: 1px  #BFBFBF;
+      box-shadow: 3px 3px 3px #ee76ad;;
+      
+    }
+
+    #hh1-s{
+      padding: 5px;
+    }
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -7623,7 +7680,6 @@ h1, h2, h3, h4, h5,
         background: #ee76ad;
         color: #fff; }
   .btn.btn-outline-white {
-    border-color: rgba(255, 255, 255, 0.8);
     background: none;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -7635,6 +7691,7 @@ h1, h2, h3, h4, h5,
       background: #fff;
       border-color: #fff;
       color: #ee76ad; }
+
 
 .ftco-section-featured {
   margin-top: -250px;
@@ -8367,7 +8424,7 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 350px;
+  height: 150px;
   position: relative;
   display: block; }
 
